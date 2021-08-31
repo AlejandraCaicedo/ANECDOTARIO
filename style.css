@@ -1,0 +1,91 @@
+header,section,footer,aside,nav {
+    display: inline-block;
+}
+
+body {
+    text-align: center;
+    border-style: solid;
+    background: -webkit-linear-gradient(top, #1495AA, #ECCEF5);
+    background: -moz-linear-gradient(top, #1495AA, #ECCEF5);
+
+}
+
+#agrupar {
+    width: 1280px;
+    margin: 20px;
+     
+}
+
+#cabecera {
+    width: 1250px;
+    height: auto;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+#menu {
+    border-style: solid;
+    width: 1250px;
+    margin-top: 10px;
+}
+
+#cajaprincipal {
+    border-style: solid;
+    float: right;
+    width: 915px;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 13px;
+}
+
+#lateral {
+    float: left;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 300px;
+    height: auto;
+}
+
+.opciones {
+    border-style: solid;
+    padding: 25px;
+    margin-top: 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#pie {
+    margin-top: 20px;
+    border-top: 3px solid #999999;
+    width: 1280px;
+    height: auto;
+}
+
+input#boton{
+    padding: 5px 15px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea#texto {
+    max-width: 170px;
+    max-height: 180px;
+    min-width: 100px;
+}
+#fecha {
+    width: 170px;
+}
+
+#botonimg{
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    border-style: none; 
+}
+    
+.icon:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}

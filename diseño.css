@@ -1,0 +1,232 @@
+body {
+    text-align: center;
+    background:   -webkit-linear-gradient(-45deg, rgba(70,105,38,1) 9%, rgba(74,110,39,1) 11%, rgba(210,255,82,0.25) 74%);
+    background:  -webkit-linear-gradient(-45deg, rgba(70,105,38,1) 9%, rgba(74,110,39,1) 11%, rgba(210,255,82,0.25) 74%);
+}
+
+#cabecera {
+    border-style: solid;
+    width: 1192px;
+    margin-left: 26px;
+    border-radius: 5px;
+}
+
+h1,h2,h3 {
+    margin-right: 200px;
+    margin-left: 200px;
+    align-content: center;
+}
+
+img {
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+#foto{
+    border-style: solid;
+    width: auto;
+    height: auto;
+    float: right;
+    margin-right: 110px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+.tabla1{
+    width: 950px;
+    height: 70px;
+    padding: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#nombre {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Apellidos {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#tipoid {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.tabla2 {
+    width: 950px;
+    height: 70px;
+    padding: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#Documento {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Lugarex {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Fechaex {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.tabla3 {
+    width: 950px;
+    height: 70px;
+    padding: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#Fechana {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Lugarna {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Edad {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.tabla4{
+    width: 1280px;
+    height: 70px;
+    padding: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#Grado {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Anoes {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Direccion {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+#Telefono {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.tabla5 {
+    width: 1280px;
+    height: 70px; 
+    padding: 6px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#correo {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Genero {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#EPS {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#Rh {
+    border-style: solid;
+    width: 290px;
+    height: 60px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+input#boton{
+    padding: 5px 15px;
+    background-color: darkred;
+    border-radius: 5px;
+    cursor: pointer;
+}

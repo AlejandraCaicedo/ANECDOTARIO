@@ -1,0 +1,162 @@
+<html>
+    
+    <head>
+        <title>DATOS PERSONALES</title>
+        <meta charset="utf-8">
+        <link href="diseño.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="cabecera">
+            <img src="LOGO%20IEBOSQUES%20DE%20PINARES.png" width="210px" height="150px" align="left">
+            <P><H1>I.E BOSQUES DE PINARES</H1></P>
+            <P><h2>ANECDOTARIO VIRTUAL</h2></P>
+            <h3>DATOS PERSONALES</h3>
+        </div>
+        
+        <div id="agrupar">
+            <form action="conection.php" method="post" id="formulario">
+                <div id="foto">
+                    <img src="bart.png" width="234px" height="234px">
+                </div>
+                
+                <div class="tabla1">
+                    <div id="Nombre">
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" name="Nombre">
+                    </div>
+
+                    <div id="Apellidos">
+                    <label for="apellidos">Apellidos</label><br>
+                    <input type="text" name="Apellidos">
+                    </div>
+
+                    <div id="tipoid"> Tipo de documento<br>
+                    <select name="tipoid">
+                        <option value="0">Elegir una opción</option>
+                        <option value="1">Registro civil</option>
+                        <option value="2">T.I</option>
+                        <option value="3">C.C</option>
+                        <option value="4">Cédula de extranjería</option>
+                    </select>
+                    </div>
+
+                </div>
+                
+                <div class="tabla2">
+                    <div id="Documento">
+                    <label for="Documento">Número de documento</label><br>
+                    <input type="text" name="Documento">
+                    </div>
+                    
+                    <div id="Fechaex"> Fecha de expedición<br>
+                    <input type="date" name="Fechaex">
+                    </div>
+                    
+                    <div id="Lugarex">
+                    <label for="Lugarex">Lugar de expedición</label><br>
+                    <input type="text" name="Lugarex">
+                    </div>
+                
+                </div>
+                
+                <div class="tabla3">
+                    <div id="Fechana"> Fecha de nacimiento<br>
+                    <input type="date" name="Fechana">
+                    </div>
+
+                    <div id="Lugarna">
+                    <label for="Lugarna">Lugar de nacimiento</label><br>
+                    <input type="text" name="Lugarna">
+                    </div>
+                    
+                    <div id="Edad">
+                    <label for="Edad">Edad estudiante</label><br>
+                    <input type="number" name="Edad">
+                    </div>
+                    
+                </div>
+                
+                <div class="tabla4">
+                    <div id="Grado">
+                    <label for="Grado">Grado que cursa</label><br>
+                    <input type="text" name="Grado">
+                    </div>
+                    
+                    <div id="Anoes"> Año escolar<br>
+                    <select name="Anoes">
+                        <option value="0">Elegir una opción</option>
+                        <option value="1">2005</option>
+                        <option value="2">2006</option>
+                        <option value="3">2007</option>
+                        <option value="4">2008</option>
+                        <option value="5">2009</option>
+                        <option value="6">2010</option>
+                        <option value="7">2011</option>
+                        <option value="7">2012</option>
+                        <option value="7">2013</option>
+                        <option value="7">2014</option>
+                        <option value="7">2015</option>
+                        <option value="7">2016</option>
+                        <option value="7">2017</option>
+                        <option value="7">2018</option>
+                        <option value="7">2019</option>
+                        <option value="7">2020</option>
+                    </select>
+                    </div>
+
+                    <div id="Direccion">
+                    <label for="Direccion">Dirección</label><br>
+                    <input type="text" name="Direccion">
+                    </div>
+                    
+                    <div id="Telefono">
+                    <label for="Telefono">Telefono/celular</label><br>
+                    <input type="text" name="Telefono">
+                    </div>
+                    
+                    </div>
+
+                    <div class="tabla5">
+                    <div id="correo">
+                    <label for="correo">Correo electrónico</label><br>
+                    <input type="email" name="correo">
+                    </div>
+                        
+                    <div id="Genero"> Genero estudiante<br>
+                        <select name="Genero">
+                            <option value="0">Elegir una opción</option>
+                            <option value="1">Femenino</option>
+                            <option value="2">Masculino</option>
+                        </select>
+                    </div>
+
+                    <div id="EPS">
+                    <label for="EPS">EPS estudiante</label><br>
+                    <input type="text" name="EPS">
+                    </div>
+
+                    <div id="Rh"> Grupo sanguineo<br>
+                        <select name="Rh">
+                            <option value="0">Elegir uno</option>
+                            <option value="1">O-</option>
+                            <option value="2">O+</option>
+                            <option value="3">A-</option>
+                            <option value="4">A+</option>
+                            <option value="5">B-</option>
+                            <option value="6">B+</option>
+                            <option value="7">AB-</option>
+                            <option value="8">AB+</option>
+                        </select>
+                    </div>
+                        
+                    </div>
+                <br>
+                <input type="submit" value="REGISTRAR" id="boton">
+                <input type="reset" value="BORRAR" id="boton">
+                
+            </form>
+        </div>
+    
+    </body>
+</html>

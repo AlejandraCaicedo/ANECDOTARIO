@@ -1,0 +1,111 @@
+header, section, footer, aside, nav {
+    display: block;
+}
+body {
+    text-align: center;
+}
+#agrupar {
+    width: 1300px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#cabecera {
+    padding: 15px;
+    padding-right: 55px;
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150) 5px 5px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+    background-color: yellowgreen;
+    border: 1px solid #999999;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 28px;
+    font-family: sans-serif;
+    height: 150px;
+    background: -webkit-linear-gradient(top, #FFFFFF, #1495AA);
+    background: -moz-linear-gradient(top, #FFFFFF, #1495AA);
+}
+
+#menu {
+    padding: 8px 5px;
+    
+}
+.bp {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 28px;
+    margin: 3px;
+    border-radius: 12px;
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150) 5px 5px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+    border-radius: 12px;
+    font-family: Yu Gothic Medium;
+    font-size: 24px;
+}
+
+#cajaprincipal {
+    float: left;
+    width: 800px;
+    margin: 15px;
+    height: 550px;
+    margin-left: 35px;
+}
+.opciones {
+    background-color: greenyellow;
+    display: inline-block;
+    float: left;
+    width: 330px;
+    height: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150) 5px 5px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+    border-radius: 12px;
+    font-family: Yu Gothic Medium;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-top: 90px;
+}
+
+#lateral {
+    float: right;
+    width: 300px;
+    margin: 20px 0px;
+    margin-right: 100px;
+    padding: 20px;
+    height: 630px;
+    border-radius: 12px;
+    margin-top: -2px;
+}
+.others {
+    background-color: lightseagreen;
+    display: inline-block;
+    width: 280px;
+    height: 80px;
+    padding: 3px;
+    text-align: center;
+    margin: 3px;
+    border-radius: 12px;
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150) 5px 5px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+    border-radius: 12px;
+    font-family: Yu Gothic Medium;
+    font-size: 22px;
+    margin-top: 8px;
+    padding-top: 30px;
+}
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #999999;
+    font-size: 18px;
+}
